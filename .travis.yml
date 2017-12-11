@@ -1,5 +1,11 @@
-os: osx
-osx_image: xcode9.2
+language:
+  - ruby
+
+os:
+  - osx
+
+osx_image:
+  - xcode9.2
 
 install:
   - tar xf target.tar.bz2
